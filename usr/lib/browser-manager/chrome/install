@@ -23,7 +23,7 @@ fi
 
 # Check for root
 if [ ! "$(whoami)" = "root" ]; then
-    zenity --question --title="Continue?" --title="Continue?" --text "The use of Chrome is goverened by the Terms of Use and Privacy Policy found at:\n\n    <a href='https://www.google.com/chrome/terms/'>https://www.google.com/chrome/terms/</a>\n    <a href='https://www.google.com/chrome/privacy/'>https://www.google.com/chrome/privacy/</a>\n\nAre you sure you want to install Chrome?"
+    zenity --question --title="Continue?" --title="Continue?" --text "The use of Chrome is goverened by the Terms of Use and Privacy Policy found at:\n\n    <a href='https://www.google.com/chrome/terms/'>https://www.google.com/chrome/terms/</a>\n    <a href='https://policies.google.com/privacy'>https://policies.google.com/privacy</a>\n\nAre you sure you want to install Chrome?"
 
     if [ ! $? -eq 0 ]; then
         exit 0
