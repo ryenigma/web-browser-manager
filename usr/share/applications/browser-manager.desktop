@@ -1,19 +1,19 @@
 [Desktop Entry]
 Name=Web Browser Manager
+Name[cs]=Správce Web prohlížečů
 Name[fr]=Gestionnaire de navigateurs web
 Name[pt]=Gestor de navegadores web
 Name[sk]=Správca Web prehliadačov
-Name[cs]=Správce Web prohlížečů
 Comment=Easily install and uninstall web browsers
+Comment[cs]=Jednoduchá správa webových prohlížečů
 Comment[fr]=Installer et désinstaller facilement des navigateurs web
 Comment[pt]=Instale e desinstale facilmente navegadores web
 Comment[sk]=Jednoduchá správa webových prehliadačov
-Comment[cs]=Jednoduchá správa webových prohlížečů
 GenericName=Browser Manager
+GenericName[cs]=Správce prohlížečů
 GenericName[fr]=Gestionnaire de navigateurs
 GenericName[pt]=Gestor de navegadores
 GenericName[sk]=Správca prehliadačov
-GenericName[cs]=Správce prohlížečů
 Exec=browser-manager
 Icon=browser-manager
 StartupNotify=false
